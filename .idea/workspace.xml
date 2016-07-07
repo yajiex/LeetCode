@@ -21,22 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Multiply-Strings.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Multiply-Strings/Multiply-Strings.md">
-          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="MarkdownFxPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Reverse-String.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Reverse-String/Reverse-String.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -105,11 +89,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sum-of-Two-Integers.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Sum-of-Two-Integers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sum-of-Two-Integers/Sum-of-Two-Integers.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="7" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="2" />
+              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Add-Digits.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Add-Digits/Add-Digits.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="133">
+                <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Add-Digits.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Add-Digits/Add-Digits.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -141,22 +151,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Reverse-Nodes-in-k-Group.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Reverse-Nodes-in-k-Group/Reverse-Nodes-in-k-Group.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="10" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownFxPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -171,6 +165,8 @@
         <option value="$PROJECT_DIR$/Nim-Game/Nim-Game.js" />
         <option value="$PROJECT_DIR$/Sum-of-Two-Integers/Sum-of-Two-Integers.js" />
         <option value="$PROJECT_DIR$/Sum-of-Two-Integers/Sum-of-Two-Integers.md" />
+        <option value="$PROJECT_DIR$/Add-Digits/Add-Digits.md" />
+        <option value="$PROJECT_DIR$/Add-Digits/Add-Digits.js" />
       </list>
     </option>
   </component>
@@ -369,6 +365,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Add-Digits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -376,7 +386,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaScript-The-Easy-to-Overlook-Parts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../electron-browser" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
@@ -447,12 +457,12 @@
       <option name="presentableId" value="Default" />
       <updated>1467781094680</updated>
       <workItem from="1467781096033" duration="2238000" />
-      <workItem from="1467882313713" duration="1794000" />
+      <workItem from="1467882313713" duration="2512000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4032000" />
+    <option name="totallyTimeSpent" value="4750000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
@@ -677,7 +687,29 @@
     <entry file="file://$PROJECT_DIR$/Sum-of-Two-Integers/Sum-of-Two-Integers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="2" />
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Add-Digits/Add-Digits.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="133">
+            <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Add-Digits/Add-Digits.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
           <folding />
         </state>
       </provider>
