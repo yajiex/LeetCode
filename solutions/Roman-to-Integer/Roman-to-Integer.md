@@ -10,3 +10,12 @@
 ## 更新：
 总结leetcode数学题目
 
+## Description:
+Given a roman numeral, convert it to an integer.
+
+Input is guaranteed to be within the range from 1 to 3999.
+
+## Idea:
+
+If you forget a break then script will run from the case where criteria is met, and will run the case after that regardless if criteria was met.
+
