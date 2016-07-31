@@ -10,3 +10,8 @@
 ## 更新：
 总结leetcode链表内容
 
+## Description:
+Given a linked list, determine if it has a cycle in it.
+
+Follow up:
+Can you solve it without using extra space?
