@@ -12,6 +12,8 @@ To improve the loading performance, the following tips are used:
    Eliminate render-blocking JavaScript and CSS (inline small styles and async js)
 - [Commit: Use service worker](https://github.com/yajiex/LeetCode/commit/bd7280549f8a979de2482d31d9b14a3abf3e7e4c)
    Service Worker (all from cache), of course, enable github pages https
+- [Commit: Use extract-text-webpack-plugin to generate native css output file](https://github.com/yajiex/LeetCode/commit/34205cedabb48a40930d91289b631f3fbc35458a)
+   Generate native css output file to ensure large stylesheets can be cached and asynchronous downloading
 - ...On going
 
 ![Loading Time](https://cloud.githubusercontent.com/assets/16146902/17828620/fc616f88-66c9-11e6-821b-6f5664f8d0a8.png)
