@@ -14,6 +14,8 @@ To improve the loading performance, the following tips are used:
    Service Worker (all from cache), of course, enable github pages https
 - [Commit: Use extract-text-webpack-plugin to generate native css output file](https://github.com/yajiex/LeetCode/commit/34205cedabb48a40930d91289b631f3fbc35458a)
    Generate native css output file to ensure large stylesheets can be cached and asynchronous downloading
+- [Commit: Wipe old cache when updating service worker](https://github.com/yajiex/LeetCode/commit/b020866f2b4d3628214504c4d48e74910f751d7d)
+   Wipe old cache when updating service worker (this commit is an appendix for last commit(use extract-text-webpack-plugin to generate native css output file)
 - ...On going
 
 ![Loading Time](https://cloud.githubusercontent.com/assets/16146902/17828620/fc616f88-66c9-11e6-821b-6f5664f8d0a8.png)
