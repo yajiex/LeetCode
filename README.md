@@ -18,4 +18,4 @@ To improve the loading performance, the following tips are used:
    Wipe old cache when updating service worker (this commit is an appendix for last commit(use extract-text-webpack-plugin to generate native css output file)
 - ...On going
 
-![Loading Time](https://cloud.githubusercontent.com/assets/16146902/17828620/fc616f88-66c9-11e6-821b-6f5664f8d0a8.png)
+![Loading Time](https://cloud.githubusercontent.com/assets/16146902/17876158/843f9dde-690a-11e6-8703-a55c2e748a9a.png)
