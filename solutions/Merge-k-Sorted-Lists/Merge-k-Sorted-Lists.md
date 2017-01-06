@@ -11,3 +11,6 @@ http://blog.csdn.net/linhuanmars/article/details/19899259
 ## 更新：
 总结leetcode链表题目
 
+## Description:
+Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
+
