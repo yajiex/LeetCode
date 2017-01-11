@@ -12,3 +12,7 @@ http://www.cnblogs.com/lihaozy/archive/2012/12/30/2840070.html
 ## 更新：
 总结leetcode数学题目
 
+## Description:
+Divide two integers without using multiplication, division and mod operator.
+
+If it is overflow, return MAX_INT.
