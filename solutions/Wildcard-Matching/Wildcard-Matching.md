@@ -19,7 +19,7 @@ http://www.cnblogs.com/x1957/p/3517096.html
 
 如果ok往后走,往后不ok,那么匹配1个字符...同理2,3,4个字符(有点回溯的感觉吧
 
-所以实践复杂度是O(len(s) * len(p))
+所以时间复杂度是O(len(s) * len(p))
 
 
 python做法：
@@ -29,4 +29,24 @@ http://chaoren.is-programmer.com/posts/42771.html
 
 ## 更新：
 总结leetcode搜索题目
+
+## Description:
+Implement wildcard pattern matching with support for '?' and '*'.
+
+'?' Matches any single character.
+'*' Matches any sequence of characters (including the empty sequence).
+
+The matching should cover the entire input string (not partial).
+
+The function prototype should be:
+bool isMatch(const char *s, const char *p)
+
+Some examples:
+isMatch("aa","a") → false
+isMatch("aa","aa") → true
+isMatch("aaa","aa") → false
+isMatch("aa", "*") → true
+isMatch("aa", "a*") → true
+isMatch("ab", "?*") → true
+isMatch("aab", "c*a*b") → false
 
