@@ -13,3 +13,14 @@
 更新：
 总结leetcode排列组合题目
 
+## Description:
+Given a collection of numbers that might contain duplicates, return all possible unique permutations.
+
+For example,
+[1,1,2] have the following unique permutations:
+[
+  [1,1,2],
+  [1,2,1],
+  [2,1,1]
+]
+
