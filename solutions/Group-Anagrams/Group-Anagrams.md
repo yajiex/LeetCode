@@ -15,3 +15,16 @@ Anagrams是指字符相同只是顺序不同的字符串，给定字符串数组
 ## 更新：
 总结leetcode字符串题目
 
+## Description:
+Given an array of strings, group anagrams together.
+
+For example, given: ["eat", "tea", "tan", "ate", "nat", "bat"], 
+Return:
+
+[
+  ["ate", "eat","tea"],
+  ["nat","tan"],
+  ["bat"]
+]
+Note: All inputs will be in lower-case.
+
