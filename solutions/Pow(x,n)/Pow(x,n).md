@@ -11,3 +11,6 @@
 ## 更新：
 总结leetcode数学题目
 
+## Description:
+Implement pow(x, n).
+
