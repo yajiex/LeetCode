@@ -10,3 +10,10 @@
 ## 更新：
 总结leetcode回溯题目
 
+## Description:
+Follow up for N-Queens problem.
+
+Now, instead outputting board configurations, return the total number of distinct solutions.
+
+
+
