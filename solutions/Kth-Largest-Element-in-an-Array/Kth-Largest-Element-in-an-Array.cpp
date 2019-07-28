@@ -1,44 +1,95 @@
-// https://leetcode.com/problems/kth-largest-element-in-an-array/discuss/60309/C%2B%2B-PartitionMax-Heappriority_queuemultiset
+// // https://leetcode.com/problems/kth-largest-element-in-an-array/discuss/60309/C%2B%2B-PartitionMax-Heappriority_queuemultiset
+// class Solution {
+// public:
+//     int findKthLargest(vector<int>& nums, int k) {
+//         int left = 0;
+//         int right = nums.size() - 1;
+//         while (true)
+//         {
+//             int p = partition(nums, left, right);
+//             if(p== k-1)
+//             {
+//                 return nums[p];
+//             }
+//             if(p>k-1)
+//             {
+//                 right = p-1;
+//             }
+//             else
+//             {
+//                 left = p+1;
+//             }
+//         }
+//     }
+
+//     int partition(vector<int>& nums, int left, int right)
+//     {
+//         int pivot = nums[left];
+//         int l =left+1;
+//         int r = right;
+//         while(l<=r)
+//         {
+//             if(nums[l]<pivot && nums[r]>pivot)
+//             {
+//                 swap(nums[l++], nums[r--]);
+//             }
+            
+//             if (nums[l]>=pivot)
+//             {
+//                 l++;
+//             }
+//             if(nums[r]<=pivot)
+//             {
+//                 r--;
+//             }
+//         }
+//         swap(nums[left], nums[r]);
+//         return r;
+//     }
+// };
+
+// 2019-07-28
+// O(n)
 class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {
-        int left = 0;
-        int right = nums.size() - 1;
-        while (true)
+        int l = 0;
+        int r = nums.size() - 1;
+        while(true)
         {
-            int p = partition(nums, left, right);
-            if(p== k-1)
+            int p = partition(nums, l, r);
+            if(p > k-1)
             {
-                return nums[p];
+                r = p-1;
             }
-            if(p>k-1)
+            else if (p < k-1)
             {
-                right = p-1;
+                l = p+1;
             }
             else
             {
-                left = p+1;
+                return nums[p];
             }
         }
     }
-
-    int partition(vector<int>& nums, int left, int right)
-    {
+private:
+    int partition(vector<int>& nums, int left, int right) {
         int pivot = nums[left];
-        int l =left+1;
+        int l = left + 1;
         int r = right;
-        while(l<=r)
+        while(l <= r)
         {
             if(nums[l]<pivot && nums[r]>pivot)
             {
                 swap(nums[l++], nums[r--]);
             }
             
-            if (nums[l]>=pivot)
+            if(nums[l] >= pivot)
             {
                 l++;
             }
-            if(nums[r]<=pivot)
+            
+            if(nums[r] <= pivot)
             {
                 r--;
             }
