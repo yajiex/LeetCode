@@ -31,21 +31,34 @@
 
 // 2019-07-21
 // O(n)
+// class Solution {
+// public:
+//     int maxSubArray(vector<int>& nums) {
+//         if(nums.size() == 0)
+//         {
+//             return 0;
+//         }
+//         int temp = nums[0];
+//         int ans = temp;
+//         for(int i=1;i<nums.size();i++)
+//         {
+//             temp = temp < 0 ? nums[i] : temp + nums[i];
+//             ans = max(ans, temp);
+//         }
+//         return ans;
+//     }
+// };
+
+// 2020-04-06
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
-        if(nums.size() == 0)
-        {
-            return 0;
-        }
-        int temp = nums[0];
-        int ans = temp;
-        for(int i=1;i<nums.size();i++)
-        {
-            temp = temp < 0 ? nums[i] : temp + nums[i];
-            ans = max(ans, temp);
+        int tmp = nums[0];
+        int ans = tmp;
+        for(int i=1;i<nums.size();i++) {
+            tmp = max(tmp + nums[i], nums[i]);
+            ans = max(ans, tmp);
         }
         return ans;
     }
 };
- 
