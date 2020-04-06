@@ -27,30 +27,54 @@
 
 // 2019-07-20
 // O(nklogk)
+// class Solution {
+// public:
+//     vector<vector<string>> groupAnagrams(vector<string>& strs) {
+//         unordered_map<string, int> mp;
+//         vector<vector<string>> ans;
+//         for(int i=0;i<strs.size();i++)
+//         {
+//             string tmp = strs[i];
+//             sort(tmp.begin(), tmp.end());
+//             if (mp.find(tmp) == mp.end())
+//             {
+//                 vector<string> vec;
+//                 vec.push_back(strs[i]);
+//                 ans.push_back(vec);
+//                 mp[tmp] = ans.size() - 1;
+//             }
+//             else
+//             {
+//                 vector<string> vec = ans[mp[tmp]];
+//                 vec.push_back(strs[i]);
+//                 ans[mp[tmp]] = vec;
+//             }
+//         }
+//         return ans;
+//     }
+// };
+
+// 2020-04-06
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
-        unordered_map<string, int> mp;
         vector<vector<string>> ans;
-        for(int i=0;i<strs.size();i++)
-        {
+        unordered_map<string, int> mp;
+        for(int i=0;i<strs.size();i++) {
             string tmp = strs[i];
             sort(tmp.begin(), tmp.end());
-            if (mp.find(tmp) == mp.end())
-            {
+            if (mp.find(tmp) == mp.end()) {
                 vector<string> vec;
                 vec.push_back(strs[i]);
                 ans.push_back(vec);
                 mp[tmp] = ans.size() - 1;
-            }
-            else
-            {
+            } else {
                 vector<string> vec = ans[mp[tmp]];
                 vec.push_back(strs[i]);
                 ans[mp[tmp]] = vec;
             }
         }
+        
         return ans;
     }
 };
- 
