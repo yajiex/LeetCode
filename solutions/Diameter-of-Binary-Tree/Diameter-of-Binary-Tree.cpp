@@ -52,8 +52,8 @@ private:
         if(!root) {
             return 0;
         }
-        int left = helper(root->left, ans);
-        int right = helper(root->right, ans);
+        int left = depth(root->left, ans);
+        int right = depth(root->right, ans);
         ans = max(ans, left + right + 1);
         return max(left, right) + 1;
     }
